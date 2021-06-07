@@ -78,8 +78,8 @@ public class Main extends ArrayList<String> {
             // 索引前缀
             String indexesPre = "index_pre";
             // 获取时间区间
-            long startTimeStamp = main.getTimeStamp("2019-09-01 00:00:00");
-            long endTimeStamp = main.getTimeStamp("2021-06-01 00:00:00");
+            long startTimeStamp = main.getTimeStamp("2017-01-01 00:00:00");
+            long endTimeStamp = main.getTimeStamp("2018-01-01 00:00:00");
 
             // 获取索引
             List<String> totalIndexes = main.getTotalIndexes(indexesPre, startTimeStamp, endTimeStamp);
